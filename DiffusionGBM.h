@@ -1,12 +1,12 @@
 #pragma once
+
 #include <stdexcept>
 
 namespace SiriusFM
 {
-
 class DiffusionGBM
 {
-public:
+private:
     double const m_mu, m_sigma;
 public:
     double mu(double a_s, double a_t) const
@@ -22,6 +22,3 @@ public:
     }
 };
 }
-
-
-
